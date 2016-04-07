@@ -1,0 +1,345 @@
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Put your favicon.ico into `hexo-site/source/` directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "Hexo, NexT"
+
+# Set rss to false to disable feed link.
+# Leave rss as empty to use site's feed link.
+# Set rss to specific value if you have burned your feed already.
+rss:
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+# Specify the date when the site was setup
+since: 2016
+
+
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
+menu:
+  home: /
+  categories: /categories
+  about: /about
+  archives: /archives
+  tags: /tags
+  commonweal: /404.html
+  something: /something
+
+
+# Enable/Disable menu icons.
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of menu item and value is the name of FontAwsome icon. Key is case-senstive.
+#   When an question mask icon presenting up means that the item has no mapping icon.
+menu_icons:
+  enable: true
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archive
+  commonweal: heartbeat
+  something: fighter-jet
+
+
+
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Schemes
+# scheme: Muse
+scheme: Mist
+# scheme: Pisces
+
+
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+
+# Social Links
+# Key is the link label showing to end users.
+# Value is the target link (E.g. GitHub: https://github.com/iissnan)
+social:
+  GitHub: https://github.com/lflxp
+  我的博客: http://www.lflxp.cn
+  管理系统: http://aws.lflxp.cn
+  百度: http://www.baidu.com
+  GO圣经: http://go.lflxp.cn
+  Aws: http://aws.amazon.com/cn
+  NexT: http://theme-next.iissnan.com/getting-started.html
+  #LinkLabel: Link
+
+
+# Social Links Icons
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
+#   When an globe mask icon presenting up means that the item has no mapping icon.
+social_icons:
+  enable: true
+  # Icon Mappings.
+  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  我的博客: twitter
+  管理系统: weibo
+  百度: phone
+  GO圣经: thumbs-up
+  Aws: thumbs-up
+  NexT: thumbs-up
+
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+avatar: /uploads/123.jpg
+
+
+# Table Of Ccontents in the Sidebar
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+#creative_commons: by-nc-sa
+#creative_commons:
+
+
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggler.
+  display: post
+  # display: always
+  #display: hide
+  #display: remove
+
+
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+# Custom Logo.
+# !!Only available for Default Scheme currently.
+# Options:
+#   enabled: [true/false] - Replace with specific image
+#   image: url-of-image   - Images's url
+custom_logo:
+  enabled: false
+  image:
+
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night bright
+
+
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: true
+
+
+# Automatically Excerpt. Not recommand.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: true
+  length: 300
+
+
+# Use Lato font
+use_font_lato: true
+
+
+
+# ---------------------------------------------------------------
+# Third Party Services Settings
+# ---------------------------------------------------------------
+
+# MathJax Support
+mathjax:
+
+
+# Swiftype Search API Key
+swiftype_key: _VYNMxKzPVW1G-MrUtKi
+
+# Baidu Analytics ID
+baidu_analytics: eb05bb32276230ed42405c8e64b1be45
+
+# Duoshuo ShortName
+duoshuo_shortname: lflxp
+duoshuo_hotartical: true
+
+# Disqus
+#disqus_shortname:
+
+# Baidu Share
+# Available value:
+#    button | slide
+# baidushare: true
+# # type: slide
+
+# Share
+# jiathis: true
+#add_this_id:
+
+# Share
+duoshuo_share: true
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+#google_site_verification:
+
+
+# Google Analytics
+#google_analytics:
+
+# CNZZ count
+#cnzz_siteid:
+
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: true
+  user_id: 6270391365704615000
+  #admin_nickname: Author
+
+
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+# facebook_sdk:
+#   enable: false
+#   app_id:       #<app_id>
+#   fb_admin:     #<user_id>
+#   like_button:  #true
+#   webmaster:    #true
+
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
+
+
+# Tencent analytics ID
+# tencent_analytics:
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: false
+
+
+
+#! ---------------------------------------------------------------
+#! DO NOT EDIT THE FOLLOWING SETTINGS
+#! UNLESS YOU KNOW WHAT YOU ARE DOING
+#! ---------------------------------------------------------------
+
+# Motion
+use_motion: true
+
+# Fancybox
+fancybox: true
+
+# Static files
+vendors: vendors
+css: css
+js: js
+images: images
+
+# Theme version
+version: 0.5.0
+
+# Wechat Subscriber
+wechat_subscriber:
+  enabled: true
+  qcode: /images/weixin.jpg
+  description: 欢迎您扫一扫上面的微信，加我为好友！
+
+# Donate 文章末尾显示打赏按钮
+reward_comment: 坚持技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/weixin.jpg
+alipay: /images/alipay.jpg
+
+# title
+links_title: Links
+links:
+  波波: http://fmo008.github.io
+  昌建: http://zhaochj.github.io
+  监控平台: http://aws.lflxp.cn/
+  监控专业平台: http://wrapbootstrap.com/preview/WB0R5L90S
+  监控宝（原型）: http://www.jiankongbao.com/new_server
+  我的博客: http://lflxp.cn
+  GITHUB-lixueping: http://github.com/lixueping
+  GITHUB-lflxp: http://github.com/lflxp
+  Golang : http://www.godoc.org
+  PHP: http://www.baidu.com
+  Python : http://Python.org
+  百度BAE: http://developer.baidu.com/bae/
+  Mysql_altas: http://sofar.blog.51cto.com/353572/1601552
+  网站模板: https://almsaeedstudio.com/blog/10-Free-Responsive-Bootstrap-Templates-For-2016
+  亚马逊AWS: http://aws.amazon.com/cn
+  Docker 集群编排系统kubernetes: https://github.com/kubernetes
+  kubernetes 官网: http://kubernetes.io/v1.1/docs/getting-started-guides/README.html
+  etcd服务发现github: https://github.com/coreos/etcd
+  etcd 官网: https://coreos.com/etcd/
+  git: http://git-scm.com/download/
+  GitHub: https://help.github.com/
+  godoc: https://godoc.org/
+  中国万网: http://wanwang.aliyun.com
+  mysql: http://www.mysql.com/
+  oracle: http://www.oracle.com/index.html
+  mongodb: https://www.mongodb.com/
+  HDP 2.3: http://hortonworks.com/hdp/whats-new/
+  DjangoBook2.0 学习: http://djangobook.py3k.cn/2.0/
+  DjangoBook2.0 有图片: http://www.iteedu.com/webtech/python/djangocn2/chapter06.php
+  Custom template tags and filters: https://docs.djangoproject.com/en/dev/howto/custom-template-tags/
+  The messages framework: https://docs.djangoproject.com/en/dev/ref/contrib/messages/
+  Outputting CSV with Django: https://docs.djangoproject.com/en/dev/howto/outputting-csv/
+  Sublime Text3: http://python.jobbole.com/81312/
+  百度云CDN加速: http://su.baidu.com/
+  百度云CDN配置: http://jingyan.baidu.com/article/27fa7326e7208946f9271f67.html?qq-pf-to=pcqq.c2c
+  GO语言圣经: http://go.lflxp.cn
+  Go实战开发之目录: https://github.com/astaxie/Go-in-Action/blob/master/ebook/zh/preface.md
+  Bootstrap-multiselect: http://davidstutz.github.io/bootstrap-multiselect/
+  vagrant使用: http://www.jb51.net/LINUXjishu/409416.html
+  vagrant官网资源下载: http://www.vagrantbox.es/
+  CoreOs: https://coreos.com/
+  ECharts: http://echarts.baidu.com.cn/examples.html
+  Django模板标签: http://my.oschina.net/dddttttt/blog/304200
+  DockerFile Builder: https://docs.docker.com/engine/reference/builder/
+  新能源科学技术: http://pengky.cn/zindex01.html
+  KODExplorer: https://github.com/kalcaddle/KODExplorer
+  Github 空间搭建 Hexo: http://code.youmeek.com/2016/02/28/2016/02/Hexo/#footer
